@@ -52,3 +52,22 @@ void readFile(char *DATA_FILE)
     sortWithName();
     printf("获取到%d条数据!\n", countRecord);
 }
+
+/*
+@brife 把数据保存到文本文件中
+*/
+void Save(char *FILE_NAME, USER user[],  int n)
+{
+    int i;
+    FILE *fp;
+    if((fp = fopen(FILE_NAME, "w")) == NULL)
+    {
+        printf("can not open this file!!");
+        exit(0);
+    }
+    for(i = 0; i < n; i++)
+    {
+        fprintf(fp, "%s %s %s %s\n",  user[i].Accont, user[i].Password, user[i].ID, user[i].People_name);
+    }
+    fclose(fp);
+}

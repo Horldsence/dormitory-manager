@@ -9,7 +9,7 @@ int main(void)
 
     Register_system(); // 登录注册功能  系统管理员登录后sign = 1， 普通用户登录后 sign = 2，
     Load(user, &n); // 把用户信息加载到内存中
-    readFile("infolist.txt"); //
+    readFile("userInfoList.txt"); //
     if(sign == 1) // 进入系统管理员菜单
     {
         int select;
@@ -22,11 +22,11 @@ int main(void)
             switch(select)
             {
                 case 1: // 批量创建用户
-                    Creat_account(user, &n);break;
+                    creatAccount(user, &n);break;
                 case 2: // 批量删除用户
-                    De_account(user, &n);break;
+                    removeAccount(user, &n);break;
                 case 3: //修改账号密码
-                    Edit_accont(user, &n);break;
+                    editAccount(user, &n);break;
                 case 4: //重置账号密码
                     PrAllAccount(user, &n);break;
                 case 5://显示全部住宿信息 排序

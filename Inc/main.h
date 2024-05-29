@@ -61,5 +61,6 @@ void Menu_admist();// 管理员菜单界面
 #include "studentFinder.h"
 #include "outputManager.h"
 #include "inputManager.h"
+#include "accountManager.h"
 
 #endif // !MAIN_H

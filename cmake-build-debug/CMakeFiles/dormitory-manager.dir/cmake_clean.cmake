@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj"
+  "CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj.d"
   "CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj"
   "CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj.d"
   "CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj"

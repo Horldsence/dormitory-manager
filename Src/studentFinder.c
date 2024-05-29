@@ -186,3 +186,17 @@ void searchWithDormID(char *key)
     printf("\n404 没有找到");
     getchar();
 }
+
+// 定位待删除账号的位置
+int FindByNum(USER user[],  int n, char *str)
+{
+    int i;
+    for(i = 0; i < n; i++)
+    {
+        if(strcmp(user[i].Accont, str) == 0)
+        {
+            return i;	//返回待删除用户信息在数组的下标
+        }
+    }
+    return -1;
+}

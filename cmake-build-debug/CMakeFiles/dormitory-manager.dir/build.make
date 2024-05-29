@@ -68,11 +68,26 @@ include CMakeFiles/dormitory-manager.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dormitory-manager.dir/flags.make
 
+CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj: CMakeFiles/dormitory-manager.dir/flags.make
+CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj: CMakeFiles/dormitory-manager.dir/includes_C.rsp
+CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj: C:/Users/PengHeng/Documents/C_C++/dormitory\ manager/Src/accountManager.c
+CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj: CMakeFiles/dormitory-manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj -MF CMakeFiles\dormitory-manager.dir\Src\accountManager.c.obj.d -o CMakeFiles\dormitory-manager.dir\Src\accountManager.c.obj -c "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\accountManager.c"
+
+CMakeFiles/dormitory-manager.dir/Src/accountManager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dormitory-manager.dir/Src/accountManager.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\accountManager.c" > CMakeFiles\dormitory-manager.dir\Src\accountManager.c.i
+
+CMakeFiles/dormitory-manager.dir/Src/accountManager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dormitory-manager.dir/Src/accountManager.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\accountManager.c" -o CMakeFiles\dormitory-manager.dir\Src\accountManager.c.s
+
 CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj: CMakeFiles/dormitory-manager.dir/flags.make
 CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj: CMakeFiles/dormitory-manager.dir/includes_C.rsp
 CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj: C:/Users/PengHeng/Documents/C_C++/dormitory\ manager/Src/changeInfo.c
 CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj: CMakeFiles/dormitory-manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj -MF CMakeFiles\dormitory-manager.dir\Src\changeInfo.c.obj.d -o CMakeFiles\dormitory-manager.dir\Src\changeInfo.c.obj -c "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\changeInfo.c"
 
 CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj: CMakeFiles/dormitory-manag
 CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj: CMakeFiles/dormitory-manager.dir/includes_C.rsp
 CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj: C:/Users/PengHeng/Documents/C_C++/dormitory\ manager/Src/fileLoder.c
 CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj: CMakeFiles/dormitory-manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj -MF CMakeFiles\dormitory-manager.dir\Src\fileLoder.c.obj.d -o CMakeFiles\dormitory-manager.dir\Src\fileLoder.c.obj -c "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\fileLoder.c"
 
 CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj: CMakeFiles/dormitory-man
 CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj: CMakeFiles/dormitory-manager.dir/includes_C.rsp
 CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj: C:/Users/PengHeng/Documents/C_C++/dormitory\ manager/Src/inputManger.c
 CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj: CMakeFiles/dormitory-manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj -MF CMakeFiles\dormitory-manager.dir\Src\inputManger.c.obj.d -o CMakeFiles\dormitory-manager.dir\Src\inputManger.c.obj -c "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\inputManger.c"
 
 CMakeFiles/dormitory-manager.dir/Src/inputManger.c.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/dormitory-manager.dir/Src/main.c.obj: CMakeFiles/dormitory-manager.di
 CMakeFiles/dormitory-manager.dir/Src/main.c.obj: CMakeFiles/dormitory-manager.dir/includes_C.rsp
 CMakeFiles/dormitory-manager.dir/Src/main.c.obj: C:/Users/PengHeng/Documents/C_C++/dormitory\ manager/Src/main.c
 CMakeFiles/dormitory-manager.dir/Src/main.c.obj: CMakeFiles/dormitory-manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dormitory-manager.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dormitory-manager.dir/Src/main.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dormitory-manager.dir/Src/main.c.obj -MF CMakeFiles\dormitory-manager.dir\Src\main.c.obj.d -o CMakeFiles\dormitory-manager.dir\Src\main.c.obj -c "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\main.c"
 
 CMakeFiles/dormitory-manager.dir/Src/main.c.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj: CMakeFiles/dormitory-ma
 CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj: CMakeFiles/dormitory-manager.dir/includes_C.rsp
 CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj: C:/Users/PengHeng/Documents/C_C++/dormitory\ manager/Src/ouputManager.c
 CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj: CMakeFiles/dormitory-manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj -MF CMakeFiles\dormitory-manager.dir\Src\ouputManager.c.obj.d -o CMakeFiles\dormitory-manager.dir\Src\ouputManager.c.obj -c "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\ouputManager.c"
 
 CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj: CMakeFiles/dormitory-ma
 CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj: CMakeFiles/dormitory-manager.dir/includes_C.rsp
 CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj: C:/Users/PengHeng/Documents/C_C++/dormitory\ manager/Src/studentDelet.c
 CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj: CMakeFiles/dormitory-manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj -MF CMakeFiles\dormitory-manager.dir\Src\studentDelet.c.obj.d -o CMakeFiles\dormitory-manager.dir\Src\studentDelet.c.obj -c "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\studentDelet.c"
 
 CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj: CMakeFiles/dormitory-m
 CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj: CMakeFiles/dormitory-manager.dir/includes_C.rsp
 CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj: C:/Users/PengHeng/Documents/C_C++/dormitory\ manager/Src/studentFinder.c
 CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj: CMakeFiles/dormitory-manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj -MF CMakeFiles\dormitory-manager.dir\Src\studentFinder.c.obj.d -o CMakeFiles\dormitory-manager.dir\Src\studentFinder.c.obj -c "C:\Users\PengHeng\Documents\C_C++\dormitory manager\Src\studentFinder.c"
 
 CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.i: cmake_force
@@ -175,6 +190,7 @@ CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.s: cmake_force
 
 # Object files for target dormitory-manager
 dormitory__manager_OBJECTS = \
+"CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj" \
 "CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj" \
 "CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj" \
 "CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj" \
@@ -186,6 +202,7 @@ dormitory__manager_OBJECTS = \
 # External object files for target dormitory-manager
 dormitory__manager_EXTERNAL_OBJECTS =
 
+dormitory-manager.exe: CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj
 dormitory-manager.exe: CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj
 dormitory-manager.exe: CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj
 dormitory-manager.exe: CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj
@@ -197,7 +214,7 @@ dormitory-manager.exe: CMakeFiles/dormitory-manager.dir/build.make
 dormitory-manager.exe: CMakeFiles/dormitory-manager.dir/linkLibs.rsp
 dormitory-manager.exe: CMakeFiles/dormitory-manager.dir/objects1.rsp
 dormitory-manager.exe: CMakeFiles/dormitory-manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable dormitory-manager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\PengHeng\Documents\C_C++\dormitory manager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable dormitory-manager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\dormitory-manager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,5 +5,6 @@
 
 void Load(USER user[],  int *nptr);
 void readFile(char *DATA_FILE);
+void Save(char *FILE_NAME, USER user[],  int n);
 
 #endif

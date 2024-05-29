@@ -128,6 +128,30 @@ dormitory-manager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dormitory-manager.dir\build.make CMakeFiles/dormitory-manager.dir/build
 .PHONY : dormitory-manager/fast
 
+Src/accountManager.obj: Src/accountManager.c.obj
+.PHONY : Src/accountManager.obj
+
+# target to build an object file
+Src/accountManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dormitory-manager.dir\build.make CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj
+.PHONY : Src/accountManager.c.obj
+
+Src/accountManager.i: Src/accountManager.c.i
+.PHONY : Src/accountManager.i
+
+# target to preprocess a source file
+Src/accountManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dormitory-manager.dir\build.make CMakeFiles/dormitory-manager.dir/Src/accountManager.c.i
+.PHONY : Src/accountManager.c.i
+
+Src/accountManager.s: Src/accountManager.c.s
+.PHONY : Src/accountManager.s
+
+# target to generate assembly for a file
+Src/accountManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dormitory-manager.dir\build.make CMakeFiles/dormitory-manager.dir/Src/accountManager.c.s
+.PHONY : Src/accountManager.c.s
+
 Src/changeInfo.obj: Src/changeInfo.c.obj
 .PHONY : Src/changeInfo.obj
 
@@ -305,6 +329,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... dormitory-manager
+	@echo ... Src/accountManager.obj
+	@echo ... Src/accountManager.i
+	@echo ... Src/accountManager.s
 	@echo ... Src/changeInfo.obj
 	@echo ... Src/changeInfo.i
 	@echo ... Src/changeInfo.s

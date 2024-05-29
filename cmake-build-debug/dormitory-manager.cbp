@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/accountManager.c">
+			<Option target="dormitory-manager"/>
+		</Unit>
+		<Unit filename="C:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/accountManager.h">
+			<Option target="dormitory-manager"/>
+		</Unit>
 		<Unit filename="C:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/changeInfo.c">
 			<Option target="dormitory-manager"/>
 		</Unit>

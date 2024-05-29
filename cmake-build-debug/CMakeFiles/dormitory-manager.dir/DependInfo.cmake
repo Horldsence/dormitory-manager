@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/accountManager.c" "CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj" "gcc" "CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj.d"
   "C:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/changeInfo.c" "CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj" "gcc" "CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj.d"
   "C:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/fileLoder.c" "CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj" "gcc" "CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj.d"
   "C:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/inputManger.c" "CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj" "gcc" "CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj.d"
