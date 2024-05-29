@@ -1,0 +1,4 @@
+#ifndef STUDENTDELET_H
+#define STUDENTDELET_H
+
+#endif // !STUDENTDELET_H

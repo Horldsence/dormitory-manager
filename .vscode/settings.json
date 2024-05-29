@@ -44,7 +44,10 @@
   "C_Cpp_Runner.warningsAsError": false,
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
-  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.includePaths": [
+    "${workspaceFolder}\\**",
+    "${workspaceFolder}\\Inc"
+  ],
   "C_Cpp_Runner.includeSearch": [
     "*",
     "**/*"
@@ -64,6 +67,8 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "main.h": "c"
+    "main.h": "c",
+    "changeinfo.h": "c",
+    "studentdelet.h": "c"
   }
 }
