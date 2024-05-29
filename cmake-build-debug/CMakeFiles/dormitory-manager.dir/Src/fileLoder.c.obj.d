@@ -31,4 +31,5 @@ CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj: \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/fileLoder.h \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/studentFinder.h \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/outputManager.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/inputManager.h
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/inputManager.h \
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/accountManager.h

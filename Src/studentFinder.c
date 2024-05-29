@@ -200,3 +200,67 @@ int FindByNum(USER user[],  int n, char *str)
     }
     return -1;
 }
+/*
+@brife 下列函数是显示住宿信息的函数，功能是把目前住宿信息链表中的所有结点内容显示出来。首先按照链表顺序显示链表内容（宿舍号、学号、姓名），然后分别按照姓名、学号、宿舍号为关键字排序后显示住宿信息（宿舍号、学号、姓名）。
+*/
+void view()
+{
+    int count = 0;
+    p_node_dormitory pNodeDormitory;
+    pNodeDormitory = headDormitory;
+    PrintTitle();
+    while(pNodeDormitory != NULL)
+    {
+        PrintDormitory(pNodeDormitory->data);
+        pNodeDormitory = pNodeDormitory->next;
+        count++;
+    }
+    printf("共有%d条数据\n", count);
+    printf("\n\n通过名字排序\n");
+    PrintTitle();
+    for(count = 0; count < countRecord; count++)
+    {
+        PrintDormitory(*arrayName[count]);
+    }
+    printf("\n\n通过学号排序\n");
+    PrintTitle();
+    for(count = 0; count < countRecord; count++)
+    {
+        PrintDormitory(*arrayStudentID[count]);
+    }
+    printf("\n\n通过宿舍号排序\n");
+    PrintTitle();
+    for(count = 0; count < countRecord; count++)
+    {
+        PrintDormitory(*arrayDormID[count]);
+    }
+    getchar();
+}
+/*
+@brife 下列函数是查找函数，进入查找函数后再次进行选择查找的方式。
+*/
+void find(int type)
+{
+    char *typeName = NULL;
+    switch(type)
+    {
+    case 1:
+        typeName="学生名字"; break;
+    case 2:
+        typeName="学号"; break;
+    case 3:
+        typeName="宿舍号"; break;
+    }
+    char key[10];
+    printf("\n请输入要查找的%s：", typeName);
+    scanf("%s", key);
+    switch(type)
+    {
+    case 1:
+        searchWithName(key); break;
+    case 2:
+        searchWithStudentID(key); break;
+    case 3:
+        searchWithDormID(key); break;
+    }
+}

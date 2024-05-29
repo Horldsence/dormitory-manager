@@ -7,9 +7,10 @@ void Load(USER user[],  int *nptr)
     FILE *fp;
     int i = 0;
 
-    if((fp = fopen("userinfo.dat", "r")) == NULL)
+    if((fp = fopen("userInfoList.txt", "r")) == NULL)
     {
         *nptr = 0;
+        printf("打开用户文件失败qwq\n");
         return;
     }
     while(fscanf(fp,  "%s %s %s %s",  user[i].Accont, user[i].Password, user[i].ID, user[i].People_name) != EOF)

@@ -38,22 +38,28 @@ typedef struct node_dormitory
 } node_dormitory, *p_node_dormitory;
 
 //定义住宿信息链表的头指针为全局变量。
-p_node_dormitory headDormitory;
-
+extern p_node_dormitory headDormitory;
 //定义 3 个指针数组，分别按照关键字学号、姓名和宿舍号顺序存储住宿信息的结点地址。
-dormitory *arrayDormID[MAX_SIZE], *arrayStudentID[MAX_SIZE], *arrayName[MAX_SIZE];
-int countRecord;
+extern dormitory *arrayDormID[MAX_SIZE], *arrayStudentID[MAX_SIZE], *arrayName[MAX_SIZE];
+extern int countRecord;
+// 区分用户标识符， 1： 系统管理员，  2：普通用户
+extern int sign;
+// 用于保存普通用户登录后的账号
+extern char ACCOUNT[N];
 
-int sign = 0;// 区分用户标识符， 1： 系统管理员，  2：普通用户
-char ACCOUNT[N]; // 用于保存普通用户登录后的账号
 
 void Register_system(); // 注册账户
 void User_enter();// 系统用户登录函数
 void User_reg();// 系统用户注册
+
 void Menu1();// 系统用户登录注册界面
 void Menu2();//系统用户注册界面
 void Menu3();//用户登录注册界面
 void Menu_admist();// 管理员菜单界面
+void Menu_user();// 用户菜单界面
+
+void PrintTitle();// 打印表头
+void PrintDormitory(dormitory p); // 打印住宿信息
 
 #include "changeInfo.h"
 #include "studentDelet.h"
@@ -62,5 +68,11 @@ void Menu_admist();// 管理员菜单界面
 #include "outputManager.h"
 #include "inputManager.h"
 #include "accountManager.h"
+
+extern p_node_dormitory headDormitory;
+extern dormitory *arrayDormID[MAX_SIZE], *arrayStudentID[MAX_SIZE], *arrayName[MAX_SIZE];
+extern int countRecord;
+extern int sign;
+extern char ACCOUNT[N];
 
 #endif // !MAIN_H

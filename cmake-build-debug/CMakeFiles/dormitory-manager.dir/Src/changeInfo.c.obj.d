@@ -32,4 +32,4 @@ CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj: \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/studentFinder.h \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/outputManager.h \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/inputManager.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/main.h
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/accountManager.h

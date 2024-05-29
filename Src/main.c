@@ -2,11 +2,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int sign = 0;// 区分用户标识符， 1： 系统管理员，  2：普通用户
+char ACCOUNT[N]; // 用于保存普通用户登录后的账号
+//定义住宿信息链表的头指针为全局变量。
+p_node_dormitory headDormitory;
+//定义 3 个指针数组，分别按照关键字学号、姓名和宿舍号顺序存储住宿信息的结点地址。
+dormitory *arrayDormID[MAX_SIZE], *arrayStudentID[MAX_SIZE], *arrayName[MAX_SIZE];
+int countRecord;
+
 int main(void)
 {
     int n;
     USER user[M]; //定义结构体数组保存用户信息
-
     Register_system(); // 登录注册功能  系统管理员登录后sign = 1， 普通用户登录后 sign = 2，
     Load(user, &n); // 把用户信息加载到内存中
     readFile("userInfoList.txt"); //
@@ -45,7 +52,7 @@ int main(void)
                     find(3); break;
                 case 0:
                     printf("成功退出系统，期待你的下次使用O(∩_ ∩)O, 祝你生活愉快！\n");
-                    writeDataToFile();
+                    writeDataToFile("studentData.txt");
                     exit(0);
                 default:
                     printf("\n输入错误！无该菜单，输入任意键返回 *系统管理员功能菜单界面* ...\n");
@@ -67,7 +74,7 @@ int main(void)
             switch(select)
             {
                 case 1:
-                    Edit_accont(user, &n); //修改账号密码
+                    editAccount(user, &n); //修改账号密码
                     break;
                 case 2:
                     find(1); break;
@@ -77,7 +84,7 @@ int main(void)
                     find(3); break;
                 case 0:
                     printf("成功退出系统，期待你的下次使用O(∩_ ∩)O, 祝你生活愉快！\n");
-                    writeDataToFile();
+                    writeDataToFile("studentData.txt");
                     exit(0);
                 default:
                     printf("\n输入错误！无该菜单，输入任意键返回 *系统普通用户功能菜单界面* ...\n");
@@ -135,7 +142,7 @@ void User_enter()
     char Accont[N], Password[N];
     char Accont1[N], Password1[N], ID1[N], People_name1[N];
     FILE *fp;
-    if((fp = fopen("userinfo.dat", "a")) == NULL) //创建 userinfo.dat 文本文件
+    if((fp = fopen("userInfoList.txt", "a")) == NULL) //创建 userinfo.dat 文本文件
     {
         printf("can not open this file\n");
         exit(0);
@@ -373,6 +380,33 @@ void Menu_admist()
     printf("     0: 退出系统                         \n");
     printf("                                   \n");
     printf("==========================================\n");
+}
+
+void PrintTitle()
+{
+    printf("--------------------------------------------------------------------------------\n");
+    printf("      宿舍号 |        学号 |        名字 |       性别|      电话号码｜    寝室长\n");
+}
+
+/*
+@brife 下列函数是输出结点 p 所代表的住宿信息的内容（宿舍号、学号、姓名）。
+*/
+void PrintDormitory(dormitory p)
+{
+    printf(" %10s ", p.dormID);
+    printf("| %10s  ", p.studentID);
+    printf(" | %10s", p.Name);
+    if (strcmp(p.sex, "0") == 0) {
+        char *s = "男";
+        printf(" | %10s", s);
+    } else {
+        char *s = "女";
+        printf(" | %10s", s);
+    }
+    printf(" | %10s    ", p.phonenumber);
+    printf(" | %8s", p.vip);
+    printf("\n");
+    printf("\n");
 }
 
 // 普通用户菜单界面

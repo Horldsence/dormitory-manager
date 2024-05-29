@@ -63,7 +63,7 @@ void removeAccount(USER user[],  int *nptr)
 /*
 @brife 管理员和用户修改账号密码
 */
-void Edit_accont(USER user[],  int *nptr)
+void editAccount(USER user[],  int *nptr)
 {
     int i, index;
     char account1[N], password1[N], password2[N];
@@ -80,7 +80,7 @@ void Edit_accont(USER user[],  int *nptr)
     if(index == -1)
     {
         printf("\n系统内无该账号信息！！\n");
-        Edit_accont(user, nptr);
+        editAccount(user, nptr);
         return;
     }
     Print_account(&user[index]);
@@ -100,7 +100,7 @@ void Edit_accont(USER user[],  int *nptr)
             printf("\n输入的两次密码不同，请重新修改。＞﹏＜\n");
         }
     }
-    Save(user, *nptr);
+    Save("userInfoList.txt", user, *nptr);
     printf("\n输入任意键返回 *系统管理员功能菜单界面* ...\n");
     scanf("%*c%*c");
 }

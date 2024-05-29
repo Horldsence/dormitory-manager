@@ -3,4 +3,6 @@
 
 #include "main.h"
 
+void delete();//删除学生信息
+
 #endif // !STUDENTDELET_H
