@@ -3,6 +3,7 @@
 
 #include "main.h"
 
-int data_reader(char *a);
+void Load(USER user[],  int *nptr);
+void readFile(char *DATA_FILE);
 
 #endif

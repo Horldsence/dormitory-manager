@@ -2,12 +2,6 @@ CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj: \
  C:\Users\PengHeng\Documents\C_C++\dormitory\ manager\Src\fileLoder.c \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/fileLoder.h \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/main.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/changeInfo.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/studentDelet.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/fileLoder.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/studentFinder.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/outputManager.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/inputManager.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -31,4 +25,10 @@ CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/errno.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/ctype.h
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/changeInfo.h \
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/studentDelet.h \
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/fileLoder.h \
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/studentFinder.h \
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/outputManager.h \
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/inputManager.h

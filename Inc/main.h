@@ -2,17 +2,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include "changeInfo.h"
-#include "studentDelet.h"
-#include "fileLoder.h"
-#include "studentFinder.h"
-#include "outputManager.h"
-#include "inputManager.h"
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h> // 调用isdigit函数检查注册账号是否为存数字账号
+
 #define N 20   //宏定义
 #define M 10000 //宏定义，用于用户信息结构体数组
 
@@ -52,5 +46,20 @@ int countRecord;
 
 int sign = 0;// 区分用户标识符， 1： 系统管理员，  2：普通用户
 char ACCOUNT[N]; // 用于保存普通用户登录后的账号
+
+void Register_system(); // 注册账户
+void User_enter();// 系统用户登录函数
+void User_reg();// 系统用户注册
+void Menu1();// 系统用户登录注册界面
+void Menu2();//系统用户注册界面
+void Menu3();//用户登录注册界面
+void Menu_admist();// 管理员菜单界面
+
+#include "changeInfo.h"
+#include "studentDelet.h"
+#include "fileLoder.h"
+#include "studentFinder.h"
+#include "outputManager.h"
+#include "inputManager.h"
 
 #endif // !MAIN_H

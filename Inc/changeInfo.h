@@ -1,7 +1,6 @@
 #ifndef CHANGEINFO_H
 #define CHANGEINFO_H
 
-void Register_system();
-void Menu1();
+#include "main.h"
 
 #endif // !CHANGEINFO_H

@@ -20,25 +20,31 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ccc3aa-1de8-4b59-9b4e-2e34abe3aff1" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dormitory manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dormitory manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+    <list default="true" id="39ccc3aa-1de8-4b59-9b4e-2e34abe3aff1" name="更改" comment="menu">
+      <change afterPath="$PROJECT_DIR$/Src/infolist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inc/changeInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/changeInfo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inc/fileLoder.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/fileLoder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/inputManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/inputManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/outputManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/outputManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inc/studentDelet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/studentDelet.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inc/studentFinder.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/studentFinder.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/changeInfo.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/changeInfo.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/fileLoder.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/fileLoder.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/studentFinder.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/studentFinder.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/main.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/objects.a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +56,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -122,8 +133,25 @@
       <updated>1716903440854</updated>
       <workItem from="1716903442323" duration="1304000" />
       <workItem from="1716959717406" duration="280000" />
-      <workItem from="1716961314593" duration="2244000" />
+      <workItem from="1716961314593" duration="4804000" />
     </task>
+    <task id="LOCAL-00001" summary="menu">
+      <option name="closed" value="true" />
+      <created>1716965012074</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716965012074</updated>
+    </task>
+    <task id="LOCAL-00002" summary="menu">
+      <option name="closed" value="true" />
+      <created>1716965233245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716965233245</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +161,9 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu" />
   </component>
 </project>
