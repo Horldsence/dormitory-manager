@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/dormitory manager"
+			"value" : "C:/Program Files (x86)/dormitory-manager"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "dormitory manager"
+			"value" : "dormitory-manager"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1298,7 +1298,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "dormitory manager_BINARY_DIR",
+			"name" : "dormitory-manager_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1310,7 +1310,7 @@
 			"value" : "C:/Users/PengHeng/Documents/C_C++/dormitory manager/build"
 		},
 		{
-			"name" : "dormitory manager_IS_TOP_LEVEL",
+			"name" : "dormitory-manager_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1322,7 +1322,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "dormitory manager_SOURCE_DIR",
+			"name" : "dormitory-manager_SOURCE_DIR",
 			"properties" : 
 			[
 				{

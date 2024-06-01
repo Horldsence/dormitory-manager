@@ -116,6 +116,211 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named dormitory-manager
+
+# Build rule for target.
+dormitory-manager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dormitory-manager
+.PHONY : dormitory-manager
+
+# fast build rule for target.
+dormitory-manager/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/build
+.PHONY : dormitory-manager/fast
+
+Src/accountManager.obj: Src/accountManager.c.obj
+.PHONY : Src/accountManager.obj
+
+# target to build an object file
+Src/accountManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj
+.PHONY : Src/accountManager.c.obj
+
+Src/accountManager.i: Src/accountManager.c.i
+.PHONY : Src/accountManager.i
+
+# target to preprocess a source file
+Src/accountManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/accountManager.c.i
+.PHONY : Src/accountManager.c.i
+
+Src/accountManager.s: Src/accountManager.c.s
+.PHONY : Src/accountManager.s
+
+# target to generate assembly for a file
+Src/accountManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/accountManager.c.s
+.PHONY : Src/accountManager.c.s
+
+Src/changeInfo.obj: Src/changeInfo.c.obj
+.PHONY : Src/changeInfo.obj
+
+# target to build an object file
+Src/changeInfo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj
+.PHONY : Src/changeInfo.c.obj
+
+Src/changeInfo.i: Src/changeInfo.c.i
+.PHONY : Src/changeInfo.i
+
+# target to preprocess a source file
+Src/changeInfo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.i
+.PHONY : Src/changeInfo.c.i
+
+Src/changeInfo.s: Src/changeInfo.c.s
+.PHONY : Src/changeInfo.s
+
+# target to generate assembly for a file
+Src/changeInfo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.s
+.PHONY : Src/changeInfo.c.s
+
+Src/fileLoder.obj: Src/fileLoder.c.obj
+.PHONY : Src/fileLoder.obj
+
+# target to build an object file
+Src/fileLoder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj
+.PHONY : Src/fileLoder.c.obj
+
+Src/fileLoder.i: Src/fileLoder.c.i
+.PHONY : Src/fileLoder.i
+
+# target to preprocess a source file
+Src/fileLoder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.i
+.PHONY : Src/fileLoder.c.i
+
+Src/fileLoder.s: Src/fileLoder.c.s
+.PHONY : Src/fileLoder.s
+
+# target to generate assembly for a file
+Src/fileLoder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.s
+.PHONY : Src/fileLoder.c.s
+
+Src/inputManger.obj: Src/inputManger.c.obj
+.PHONY : Src/inputManger.obj
+
+# target to build an object file
+Src/inputManger.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj
+.PHONY : Src/inputManger.c.obj
+
+Src/inputManger.i: Src/inputManger.c.i
+.PHONY : Src/inputManger.i
+
+# target to preprocess a source file
+Src/inputManger.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/inputManger.c.i
+.PHONY : Src/inputManger.c.i
+
+Src/inputManger.s: Src/inputManger.c.s
+.PHONY : Src/inputManger.s
+
+# target to generate assembly for a file
+Src/inputManger.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/inputManger.c.s
+.PHONY : Src/inputManger.c.s
+
+Src/main.obj: Src/main.c.obj
+.PHONY : Src/main.obj
+
+# target to build an object file
+Src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/main.c.obj
+.PHONY : Src/main.c.obj
+
+Src/main.i: Src/main.c.i
+.PHONY : Src/main.i
+
+# target to preprocess a source file
+Src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/main.c.i
+.PHONY : Src/main.c.i
+
+Src/main.s: Src/main.c.s
+.PHONY : Src/main.s
+
+# target to generate assembly for a file
+Src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/main.c.s
+.PHONY : Src/main.c.s
+
+Src/ouputManager.obj: Src/ouputManager.c.obj
+.PHONY : Src/ouputManager.obj
+
+# target to build an object file
+Src/ouputManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj
+.PHONY : Src/ouputManager.c.obj
+
+Src/ouputManager.i: Src/ouputManager.c.i
+.PHONY : Src/ouputManager.i
+
+# target to preprocess a source file
+Src/ouputManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.i
+.PHONY : Src/ouputManager.c.i
+
+Src/ouputManager.s: Src/ouputManager.c.s
+.PHONY : Src/ouputManager.s
+
+# target to generate assembly for a file
+Src/ouputManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.s
+.PHONY : Src/ouputManager.c.s
+
+Src/studentDelet.obj: Src/studentDelet.c.obj
+.PHONY : Src/studentDelet.obj
+
+# target to build an object file
+Src/studentDelet.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj
+.PHONY : Src/studentDelet.c.obj
+
+Src/studentDelet.i: Src/studentDelet.c.i
+.PHONY : Src/studentDelet.i
+
+# target to preprocess a source file
+Src/studentDelet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.i
+.PHONY : Src/studentDelet.c.i
+
+Src/studentDelet.s: Src/studentDelet.c.s
+.PHONY : Src/studentDelet.s
+
+# target to generate assembly for a file
+Src/studentDelet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.s
+.PHONY : Src/studentDelet.c.s
+
+Src/studentFinder.obj: Src/studentFinder.c.obj
+.PHONY : Src/studentFinder.obj
+
+# target to build an object file
+Src/studentFinder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj
+.PHONY : Src/studentFinder.c.obj
+
+Src/studentFinder.i: Src/studentFinder.c.i
+.PHONY : Src/studentFinder.i
+
+# target to preprocess a source file
+Src/studentFinder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.i
+.PHONY : Src/studentFinder.c.i
+
+Src/studentFinder.s: Src/studentFinder.c.s
+.PHONY : Src/studentFinder.s
+
+# target to generate assembly for a file
+Src/studentFinder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dormitory-manager.dir/build.make CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.s
+.PHONY : Src/studentFinder.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +329,31 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... dormitory-manager"
+	@echo "... Src/accountManager.obj"
+	@echo "... Src/accountManager.i"
+	@echo "... Src/accountManager.s"
+	@echo "... Src/changeInfo.obj"
+	@echo "... Src/changeInfo.i"
+	@echo "... Src/changeInfo.s"
+	@echo "... Src/fileLoder.obj"
+	@echo "... Src/fileLoder.i"
+	@echo "... Src/fileLoder.s"
+	@echo "... Src/inputManger.obj"
+	@echo "... Src/inputManger.i"
+	@echo "... Src/inputManger.s"
+	@echo "... Src/main.obj"
+	@echo "... Src/main.i"
+	@echo "... Src/main.s"
+	@echo "... Src/ouputManager.obj"
+	@echo "... Src/ouputManager.i"
+	@echo "... Src/ouputManager.s"
+	@echo "... Src/studentDelet.obj"
+	@echo "... Src/studentDelet.i"
+	@echo "... Src/studentDelet.s"
+	@echo "... Src/studentFinder.obj"
+	@echo "... Src/studentFinder.i"
+	@echo "... Src/studentFinder.s"
 .PHONY : help
 
 

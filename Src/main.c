@@ -16,7 +16,8 @@ int main(void)
     USER user[M]; //定义结构体数组保存用户信息
     Register_system(); // 登录注册功能  系统管理员登录后sign = 1， 普通用户登录后 sign = 2，
     Load(user, &n); // 把用户信息加载到内存中
-    readFile("userInfoList.txt"); //
+    printf("正在加载学生数据...\n");
+    readFile("studentData.txt"); //
     if(sign == 1) // 进入系统管理员菜单
     {
         int select;
@@ -51,7 +52,7 @@ int main(void)
                 case 11://根据住宿号查找
                     find(3); break;
                 case 0:
-                    printf("成功退出系统，期待你的下次使用O(∩_ ∩)O, 祝你生活愉快！\n");
+                    printf("成功退出系统，期待你的下次使用O(∩_ ∩)O, 祝你生活愉快！\n文件将自动保存(* Ŏ∀Ŏ)\n");
                     writeDataToFile("studentData.txt");
                     exit(0);
                 default:
@@ -115,7 +116,7 @@ void Register_system()
     default: //重新输入选项
         printf("\n输入错误，输入任意键返回 *系统用户登录注册界面* ...\n");
         scanf("%*c%*c");
-        system("clear");
+        system("cls");
         Register_system();
         return;
     }
@@ -124,7 +125,7 @@ void Register_system()
 //系统用户登录注册界面
 void Menu1()
 {
-    system("clear");
+    system("cls");
     printf("===============================================\n");
     printf("                                            \n");
     printf("            欢 迎 使 用 宿 舍 系 统             \n");
@@ -142,7 +143,7 @@ void User_enter()
     char Accont[N], Password[N];
     char Accont1[N], Password1[N], ID1[N], People_name1[N];
     FILE *fp;
-    if((fp = fopen("userInfoList.txt", "a")) == NULL) //创建 userinfo.dat 文本文件
+    if((fp = fopen("userInfoList.txt", "a")) == NULL) //创建 userInfoList.txt 文本文件
     {
         printf("can not open this file\n");
         exit(0);
@@ -153,7 +154,7 @@ void User_enter()
     switch(select)
     {
         case 1: //登录账号密码
-            if((fp = fopen("userinfo.dat", "r")) == NULL)
+            if((fp = fopen("userInfoList.txt", "r")) == NULL)
             {
                 printf("can not open this file\n");
                 exit(0);
@@ -197,7 +198,7 @@ void User_enter()
         case 2: //返回上界面
             printf("\n输入任意键返回 *系统用户登录注册界面* ...\n");
             scanf("%*c%*c");
-            system("clear");
+            system("cls");
             Register_system();
             return ;
         case 0: //退出系统
@@ -218,7 +219,7 @@ void User_reg()
     char Accont[N], Password1[N], Password2[N], ID[N], People_name[N];
     FILE *fp;
     Menu2(); // 新用户注册功能菜单
-    if((fp = fopen("userinfo.dat", "a")) == NULL) //创建 userinfo.dat 文本文件
+    if((fp = fopen("userInfoList.txt", "a")) == NULL) //创建 userInfoList.txt 文本文件
     {
         printf("can not open this file\n");
         exit(0);
@@ -234,12 +235,12 @@ void User_reg()
                 int i;
                 char Accont1[N], password1[N], ID[N], People_name[N];
                 int sign1 = 0; // 检查账号是否为数字账号，0：是  1：否
-                system("clear");
+                system("cls");
                 Menu2();
                 printf("1\n");
                 printf("请输入注册账号（九位数数字）:\n");
                 scanf("%s", Accont);
-                if((fp = fopen("userinfo.dat", "r")) == NULL)
+                if((fp = fopen("userInfoList.txt", "r")) == NULL)
                 {
                     printf("can not open this file\n");
                     exit(0);
@@ -281,7 +282,7 @@ void User_reg()
                 }
 
             }
-            if((fp = fopen("userinfo.dat", "a")) == NULL)
+            if((fp = fopen("userInfoList.txt", "a")) == NULL)
             {
                 printf("can not open this file\n");
                 exit(0);
@@ -301,7 +302,7 @@ void User_reg()
                 printf("****新用户创建成功 qwq **** \n");
                 printf("\n输入任意键返回 *系统用户登录注册界面* ...\n");
                 scanf("%*c%*c");
-                system("clear");
+                system("cls");
                 Register_system();
                 return;
             }else
@@ -315,7 +316,7 @@ void User_reg()
         case 2: //返回上一界面
             printf("\n输入任意键返回 *系统用户登录注册界面* ...\n");
             scanf("%*c%*c");
-            system("clear");
+            system("cls");
             Register_system();
             return;
         case 0:  //退出系统
@@ -324,7 +325,7 @@ void User_reg()
         default:  //重新输入
             printf("\n输入错误，无该菜单，输入任意键返回 *系统用户注册界面* ...\n");
             scanf("%*c%*c");
-            system("clear");
+            system("cls");
             User_reg();
             return;
     }
@@ -333,7 +334,7 @@ void User_reg()
 //系统用户注册界面
 void Menu2()
 {
-    system("clear");
+    system("cls");
     printf("====================================\n");
     printf("                                 \n");
     printf("   该界面为：*系统用户注册界面*       \n");
@@ -348,7 +349,7 @@ void Menu2()
 //用户登录注册界面
 void Menu3()
 {
-    system("clear");
+    system("cls");
     printf("====================================\n");
     printf("                                  \n");
     printf("   该界面为：*系统用户登录界面*       \n");
@@ -362,7 +363,7 @@ void Menu3()
 // 管理员菜单界面
 void Menu_admist()
 {
-    system("clear");
+    system("cls");
     printf("==========================================\n");
     printf("                                        \n");
     printf("   欢迎来到 *系统管理员功能菜单界面*         \n");
@@ -377,6 +378,7 @@ void Menu_admist()
     printf("     9：根据姓名查找                     \n");
     printf("     10：根据学号查找                     \n");
     printf("     11：根据宿舍号查找                   \n");
+    printf("     12：通过文件导入                   \n");
     printf("     0: 退出系统                         \n");
     printf("                                   \n");
     printf("==========================================\n");
@@ -412,7 +414,7 @@ void PrintDormitory(dormitory p)
 // 普通用户菜单界面
 void Menu_user()
 {
-    system("clear");
+    system("cls");
     printf("============================================\n");
     printf("                                          \n");
     printf("   欢迎来到 *系统普通用户功能菜单界面*         \n");
