@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
+#include <time.h>
 #include <ctype.h> // 调用isdigit函数检查注册账号是否为存数字账号
 
 #define N 20   //宏定义
@@ -60,6 +62,9 @@ void Menu_user();// 用户菜单界面
 
 void PrintTitle();// 打印表头
 void PrintDormitory(dormitory p); // 打印住宿信息
+
+void draw_progress_bar(int percentage);// 进度条
+void adaptive_progress_bar(int total_time);// 自适应进度条
 
 #include "changeInfo.h"
 #include "studentDelet.h"

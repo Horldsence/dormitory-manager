@@ -4,6 +4,7 @@
 
 int sign = 0;// 区分用户标识符， 1： 系统管理员，  2：普通用户
 char ACCOUNT[N]; // 用于保存普通用户登录后的账号
+int total_time = 0;  // 生成5到10秒之间的随机数
 //定义住宿信息链表的头指针为全局变量。
 p_node_dormitory headDormitory;
 //定义 3 个指针数组，分别按照关键字学号、姓名和宿舍号顺序存储住宿信息的结点地址。
@@ -17,6 +18,9 @@ int main(void)
     Register_system(); // 登录注册功能  系统管理员登录后sign = 1， 普通用户登录后 sign = 2，
     Load(user, &n); // 把用户信息加载到内存中
     printf("正在加载学生数据...\n");
+    srand(time(NULL));  // 初始化随机数种子
+    total_time = rand() % 6 + 5;  // 生成5到10秒之间的随机数
+    adaptive_progress_bar(total_time);
     readFile("studentData.txt"); //
     if(sign == 1) // 进入系统管理员菜单
     {
@@ -52,8 +56,14 @@ int main(void)
                 case 11://根据住宿号查找
                     find(3); break;
                 case 0:
+                    srand(time(NULL));  // 初始化随机数种子
+                    total_time = rand() % 6 + 5;  // 生成5到10秒之间的随机数
+                    adaptive_progress_bar(total_time);
                     printf("成功退出系统，期待你的下次使用O(∩_ ∩)O, 祝你生活愉快！\n文件将自动保存(* Ŏ∀Ŏ)\n");
                     writeDataToFile("studentData.txt");
+                    printf("保存完成(ノ゜▽゜)，按任意键退出系统");
+                    system("pause");
+                    system("cls");
                     exit(0);
                 default:
                     printf("\n输入错误！无该菜单，输入任意键返回 *系统管理员功能菜单界面* ...\n");
@@ -425,4 +435,35 @@ void Menu_user()
     printf("     0: 退出系统                           \n");
     printf("                                          \n");
     printf("============================================\n");
+}
+
+void draw_progress_bar(int percentage) {
+    int width = 50;  // 进度条的宽度
+    int pos = (percentage * width) / 100;
+
+    printf("[");
+    for (int i = 0; i < width; ++i) {
+        if (i < pos) {
+            printf("#");  // 已完成部分
+        } else {
+            printf(" ");  // 未完成部分
+        }
+    }
+    printf("] %d%%\r", percentage);
+    fflush(stdout);
+}
+
+// 自适应黑白进度条函数
+void adaptive_progress_bar(int total_time) {
+    if (total_time <= 0) {
+        printf("Please enter a valid positive number for time.\n");
+        return;
+    }
+
+    for (int i = 0; i <= 100; ++i) {
+        draw_progress_bar(i);
+        usleep(total_time * 10000);  // 每次更新之间的间隔时间
+    }
+
+    printf("\n");
 }
