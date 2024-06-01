@@ -44,4 +44,8 @@ CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj: \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/studentFinder.h \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/outputManager.h \
  C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/inputManager.h \
- C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/accountManager.h
+ C:/Users/PengHeng/DOCUME~1/C_C__~1/DORMIT~1/Inc/accountManager.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/conio.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/conio_s.h
