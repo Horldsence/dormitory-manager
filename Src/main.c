@@ -172,7 +172,7 @@ void User_enter()
             printf("请输入账号：\n");
             scanf("%s", Accont);
             printf("请输入密码：\n");
-            scanf("%s", Password);
+            get_password(Password, 20);
             while(!feof(fp))
             {
                 fscanf(fp, "%s %s", Accont1, Password1, ID1,  People_name1);
@@ -231,7 +231,7 @@ void User_reg()
     Menu2(); // 新用户注册功能菜单
     if((fp = fopen("userInfoList.txt", "a")) == NULL) //创建 userInfoList.txt 文本文件
     {
-        printf("can not open this file\n");
+        printf("无法打开文件\n");
         exit(0);
     }
     fclose(fp);
@@ -252,7 +252,7 @@ void User_reg()
                 scanf("%s", Accont);
                 if((fp = fopen("userInfoList.txt", "r")) == NULL)
                 {
-                    printf("can not open this file\n");
+                    printf("无法打开文件\n");
                     exit(0);
                 }
                 for(i = 0; Accont[i] != '\0'; i++) // 检查是否为九位账号
@@ -298,13 +298,13 @@ void User_reg()
                 exit(0);
             }
             printf("请输入你的身份证号:\n");
-            scanf("%s", ID);
+            get_password(ID, 20);
             printf("请输入你的姓名：\n");
             scanf("%s", People_name);
             printf("请输入账号密码：\n");
-            scanf("%s", Password1);
+            get_password(Password1, 20);
             printf("请再次输入密码：\n");
-            scanf("%s", Password2);
+            get_password(Password2, 20);
             if(strcmp(Password1, Password2) == 0)
             {
                 fprintf(fp, "\n%s  %s  %s  %s\n", Accont, Password1, ID, People_name);
@@ -471,6 +471,5 @@ void adaptive_progress_bar(int total_time) {
         }
         usleep(random_sleep_time);
     }
-
-    printf("\n");
+    printf("加载完成(◕ᴗ◕✿)\n");
 }

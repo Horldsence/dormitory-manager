@@ -29,6 +29,7 @@ void delete()
             pNodeDormitory = pNodeDormitory->next;
         }
     }
+    adaptive_progress_bar(1);
     if(pNodeDormitory)
     {
         //删除一条记录后重新排序住宿号指针数组

@@ -99,10 +99,11 @@ void searchWithName(char *key)
             }
             high = i - 1; //high 此时为匹配的最后一条记录下标
             matchCount = high - low + 1;
+            adaptive_progress_bar(1);
             for(i = low; i <=high; i++)
                 PrintDormitory(*arrayName[i]);
-            printf("\n共找到%d条数据\n", matchCount);
-            getchar();
+            printf("\n共找到%d条数据( ’ω’ )\n", matchCount);
+            system("pause");
             return;
         }
         else if(strcmp(arrayName[mid]->Name, key) < 0)
@@ -110,8 +111,9 @@ void searchWithName(char *key)
         else
             high = mid - 1;
     }
-    printf("\n404 没有找到");
-    getchar();
+    adaptive_progress_bar(1);
+    printf("\n没有找到( ∵ )\n");
+    system("pause");
 }
 /*
 @brife 下列函数是根据学号查找函数，功能是采用二分查找法在学号指针数组中查找结点。
@@ -121,6 +123,7 @@ void searchWithStudentID(char *key)
     int low, high, mid;
     low = 0;
     high = countRecord - 1;
+    adaptive_progress_bar(1);
     while(low <= high)
     {
         mid = (low + high) / 2;
@@ -128,8 +131,8 @@ void searchWithStudentID(char *key)
         {
             PrintTitle();
             PrintDormitory(*arrayStudentID[mid]);
-            printf("\n找到1条数据\n");
-            getchar();
+            printf("\n找到1条数据( ’ω’ )\n");
+            system("pause");
             return;
         }
         else if(strcmp(arrayStudentID[mid]->studentID, key) < 0)
@@ -137,8 +140,8 @@ void searchWithStudentID(char *key)
         else
             high = mid - 1;
     }
-    printf("\n404 没有找到");
-    getchar();
+    printf("\n没有找到( ∵ )\n");
+    system("pause");
 }
 //下列函数是根据宿舍号查找函数，功能是采用二分查找法在宿舍指针数组中查找结点。A
 void searchWithDormID(char *key)
@@ -147,6 +150,7 @@ void searchWithDormID(char *key)
     low = 0;
     high = countRecord - 1;
     matchCount = 0;
+    adaptive_progress_bar(1);
     while(low <= high)
     {
         mid = (low + high) / 2;
@@ -174,7 +178,7 @@ void searchWithDormID(char *key)
             matchCount = high - low + 1;
             for(i = low; i <=high; i++)
                 PrintDormitory(*arrayDormID[i]);
-            printf("\n共找到%d条数据!\n", matchCount);
+            printf("\n共找到%d条数据( ’ω’ )\n", matchCount);
             getchar();
             return;
         }
@@ -183,8 +187,8 @@ void searchWithDormID(char *key)
         else
             high = mid - 1;
     }
-    printf("\n404 没有找到");
-    getchar();
+    printf("\n没有找到( ∵ )\n");
+    system("pause");
 }
 
 // 定位待删除账号的位置
@@ -208,6 +212,7 @@ void view()
     int count = 0;
     p_node_dormitory pNodeDormitory;
     pNodeDormitory = headDormitory;
+    adaptive_progress_bar(1);
     PrintTitle();
     while(pNodeDormitory != NULL)
     {
@@ -234,7 +239,7 @@ void view()
     {
         PrintDormitory(*arrayDormID[count]);
     }
-    getchar();
+    system("pause");
 }
 /*
 @brife 下列函数是查找函数，进入查找函数后再次进行选择查找的方式。

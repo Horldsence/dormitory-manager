@@ -27,8 +27,6 @@ void add()
     // 校验宿舍是否住满，男女不能混住
     if (checkoutDormNumAndSex(dormID, sex) == -1) return;
 
-
-
     int i, j, k;
     p_node_dormitory pNodeDormitory;
     pNodeDormitory = (p_node_dormitory)malloc(sizeof(node_dormitory));
@@ -79,9 +77,11 @@ void add()
         arrayName[j] = arrayName[j - 1];
     arrayName[i] = &headDormitory->data;
     countRecord++;
+    adaptive_progress_bar(1);
     PrintTitle();
     PrintDormitory(pNodeDormitory->data);
-    getchar();
+    printf("\n添加成功!\n");
+    system("pause");
 }
 
 /*
@@ -110,6 +110,7 @@ void edit()
             printf("\n 编辑性别（0：男，1：女）： ");
             scanf("%s", pNodeDormitory->data.Name);
             printf("\n\n\n");
+            adaptive_progress_bar(1);
             PrintTitle();
             PrintDormitory(pNodeDormitory->data);
             printf("\n学号%s已编辑成功!", pNodeDormitory->data.studentID);

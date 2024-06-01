@@ -3,6 +3,7 @@
 //
 
 #include "accountManager.h"
+#include <conio.h>
 
 /*
 @brife 批量创建用户
@@ -126,4 +127,21 @@ void Print_account(USER *sptr)
     printf("\n%s账号信息为：\n", sptr->Accont);
     printf("%-15s%-15s%-18s%-15s\n","用户账号:", "用户密码:", "用户身份证号:", "用户姓名:");
     printf("%-15s%-15s%-18s%-15s\n", sptr->Accont, sptr->Password, sptr->ID, sptr->People_name);
+}
+
+void get_password(char *pswd, unsigned maxlen) {
+    int index = 0;
+    char buff = '\0';
+
+    while ((buff = getch()) != '\r') {
+        if (buff == '\b' && index != 0) {
+            index--;
+            printf("\b \b");
+        } else if (index < maxlen - 1 && buff != '\b') {
+            pswd[index++] = buff;
+            putchar('*');
+        }
+    }
+    printf("\n");
+    pswd[index] = '\0';
 }
