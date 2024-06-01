@@ -462,7 +462,14 @@ void adaptive_progress_bar(int total_time) {
 
     for (int i = 0; i <= 100; ++i) {
         draw_progress_bar(i);
-        usleep(total_time * 10000);  // 每次更新之间的间隔时间
+        // 随机停顿时间，模拟进度条不同进度下的处理时间
+        int random_sleep_time;
+        if (rand() % 2 == 0) {
+            random_sleep_time = rand() % (total_time * 500);
+        } else {
+            random_sleep_time = total_time * 15000 + rand() % (total_time * 5000);
+        }
+        usleep(random_sleep_time);
     }
 
     printf("\n");
