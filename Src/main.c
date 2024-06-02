@@ -14,6 +14,7 @@ int countRecord;
 int main(void)
 {
     int n;
+    system("title dromitory-manager");
     USER user[M]; //定义结构体数组保存用户信息
     Register_system(); // 登录注册功能  系统管理员登录后sign = 1， 普通用户登录后 sign = 2，
     Load(user, &n); // 把用户信息加载到内存中

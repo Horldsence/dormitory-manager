@@ -17,7 +17,7 @@ void sortWithDormID()
             tmp = arrayDormID[i];
             arrayDormID[i] = arrayDormID[k];
             arrayDormID[k] = tmp;
-        }mao
+        }
     }
 }
 
