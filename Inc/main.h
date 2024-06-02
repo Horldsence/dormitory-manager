@@ -60,6 +60,9 @@ void Menu3();//用户登录注册界面
 void Menu_admist();// 管理员菜单界面
 void Menu_user();// 用户菜单界面
 
+int displayMenu(const char* message, const char* options[], int optionCount);// 显示提示
+
+void printCentered(const char* text, int width);// 居中打印
 void PrintTitle();// 打印表头
 void PrintDormitory(dormitory p); // 打印住宿信息
 

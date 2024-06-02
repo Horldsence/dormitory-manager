@@ -3,15 +3,45 @@
 //把文本文件中用户信息加载到内存中
 void Load(USER user[],  int *nptr)
 {
-
     FILE *fp;
     int i = 0;
 
     if((fp = fopen("userInfoList.txt", "r")) == NULL)
     {
         *nptr = 0;
+        system("cls");
         printf("打开用户文件失败qwq\n");
-        return;
+        char message[] = "未在程序目录下找到文件，是否导入或者创建？";
+        char choice[][10]={
+            "导入",
+            "创建",
+            "退出"
+        };
+        int ch = displayMenu(message, choice, 3);
+        if(ch == 1)
+        {
+            char path[100];
+            printf("请输入文件绝对路径：");
+            scanf("%s", path);
+            if((fp = fopen(path, "r")) == NULL)
+            {
+                printf("获取文件失败\n");
+                printf("即将退出 *学生宿舍管理系统* \n");
+                system("pause");
+                exit(0);
+            }
+        }
+        else if(ch == 2)
+        {
+            createFile("userInfoList.txt");
+            fp = fopen("userInfoList.txt", "r");
+        }
+        else
+        {
+            printf("即将退出 *学生宿舍管理系统* \n");
+            system("pause");
+            exit(0);
+        }
     }
     while(fscanf(fp,  "%s %s %s %s",  user[i].Accont, user[i].Password, user[i].ID, user[i].People_name) != EOF)
     {
@@ -71,4 +101,26 @@ void Save(char *FILE_NAME, USER user[],  int n)
         fprintf(fp, "%s %s %s %s\n",  user[i].Accont, user[i].Password, user[i].ID, user[i].People_name);
     }
     fclose(fp);
+}
+
+void createFile(char *FILE_NAME)
+{
+    int choice;
+    const char* message = "未找到文件，是否创建一个？";
+    const char* options[] = {
+        "是",
+        "否"
+    };
+    choice = displayMenu(message, options, 2);
+    if(choice == 1)
+    {
+        FILE *file;
+        if((file = fopen(FILE_NAME, "w")) == NULL)
+        {
+            printf("创建文件失败\n");
+            printf("即将退出 *学生宿舍管理系统* \n");
+            system("pause");
+            exit(0);
+        }
+    }
 }

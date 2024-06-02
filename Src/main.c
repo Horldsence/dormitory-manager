@@ -58,6 +58,7 @@ int main(void)
                 case 0:
                     srand(time(NULL));  // 初始化随机数种子
                     total_time = rand() % 6 + 5;  // 生成5到10秒之间的随机数
+                    printf("正在保存文件");
                     adaptive_progress_bar(total_time);
                     printf("成功退出系统，期待你的下次使用O(∩_ ∩)O, 祝你生活愉快！\n文件将自动保存(* Ŏ∀Ŏ)\n");
                     writeDataToFile("studentData.txt");
@@ -394,6 +395,51 @@ void Menu_admist()
     printf("==========================================\n");
 }
 
+int displayMenu(const char* message, const char* options[], int optionCount) {
+    system("cls");
+    printf("==========================================\n");
+    printf("                  Info                    \n");
+    int choice = 0;
+
+    // 显示提示信息
+    printCentered(message, 42);
+    printf("\n");
+
+    // 显示选项
+    for (int i = 0; i < optionCount; i++) {
+        char optionLine[42 + 1];
+        snprintf(optionLine, sizeof(optionLine), "%d. %s", i + 1, options[i]);
+        printCentered(optionLine, 42);
+        printf("\n");
+    }
+    printf("                                          \n");
+    printf("==========================================\n");
+    // 等待用户输入
+    printf("\t\t请输入选项编号：");
+    scanf("%d", &choice);
+
+    // 验证输入
+    if (choice >= 1 && choice <= optionCount) {
+        printf("你选择了：%s\n", options[choice - 1]);
+        return choice;
+    } else {
+        printf("无效的选择，请重试。\n");
+    }
+}
+
+// 打印居中文本函数
+void printCentered(const char* text, int width) {
+    int len = strlen(text);
+    int padding = (width - len) / 2;
+    for (int i = 0; i < padding; i++) {
+        printf(" ");
+    }
+    printf("%s", text);
+    for (int i = 0; i < padding; i++) {
+        printf(" ");
+    }
+}
+
 void PrintTitle()
 {
     printf("--------------------------------------------------------------------------------\n");
@@ -472,4 +518,5 @@ void adaptive_progress_bar(int total_time) {
         usleep(random_sleep_time);
     }
     printf("加载完成(◕ᴗ◕✿)\n");
+    sleep(2);
 }
