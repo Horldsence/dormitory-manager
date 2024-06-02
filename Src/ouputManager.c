@@ -10,7 +10,8 @@ void writeDataToFile(char *DATA_FILE)
     int count = 0;
     if((fp = fopen(DATA_FILE, "wb+")) == NULL)
     {
-        printf("文件已损坏!\n");
+        printf("保存失败!\n");
+        system("pause");
         return;
     }
     pNodeDormitory = headDormitory;
@@ -24,4 +25,26 @@ void writeDataToFile(char *DATA_FILE)
     fclose(fp);
     printf("成功写入%d条数据!\n", count);
     getchar();
+}
+
+void saveFile()
+{
+    char massage[] = "是否另存为修改？";
+    char choices[MAX_OPTIONS][BUFFER_SIZE] = {
+        "是",
+        "否"
+    };
+    int choice = displayMenu(massage, choices, 2);
+    if(choice == 1)
+    {
+        printf("请输入保存文件名：");
+        char DATA_FILE[20];
+        scanf("%s", DATA_FILE);
+        writeDataToFile(DATA_FILE);
+    }
+    else
+    {
+        return;
+    }
+
 }

@@ -12,7 +12,7 @@ void Load(USER user[],  int *nptr)
         system("cls");
         printf("打开用户文件失败qwq\n");
         char message[] = "未在程序目录下找到文件，是否导入或者创建？";
-        char choice[][10]={
+        char choice[MAX_OPTIONS][BUFFER_SIZE]={
             "导入",
             "创建",
             "退出"
@@ -61,6 +61,41 @@ void readFile(char *DATA_FILE)
     int size;
     countRecord = 0;
     fp = fopen(DATA_FILE, "rb");
+    if(fp == NULL)
+    {
+        printf("打开文件失败\n");
+        char message[] = "未在程序目录下找到文件，是否导入或者创建？";
+        char choice[MAX_OPTIONS][BUFFER_SIZE]={
+            "导入",
+            "创建",
+            "退出"
+        };
+        int ch = displayMenu(message, choice, 3);
+        if(ch == 1)
+        {
+            char path[100];
+            printf("请输入文件绝对路径：");
+            scanf("%s", path);
+            if((fp = fopen(path, "r")) == NULL)
+            {
+                printf("获取文件失败\n");
+                printf("即将退出 *学生宿舍管理系统* \n");
+                system("pause");
+                exit(0);
+            }
+        }
+        else if(ch == 2)
+        {
+            createFile(DATA_FILE);
+            fp = fopen(DATA_FILE, "r");
+        }
+        else
+        {
+            printf("即将退出 *学生宿舍管理系统* \n");
+            system("pause");
+            exit(0);
+        }
+    }
     fseek(fp, 0, 2); //得到文件大小
     size = ftell(fp);
     rewind(fp);
@@ -107,7 +142,7 @@ void createFile(char *FILE_NAME)
 {
     int choice;
     const char* message = "未找到文件，是否创建一个？";
-    const char* options[] = {
+    const char* options[MAX_OPTIONS][BUFFER_SIZE] = {
         "是",
         "否"
     };

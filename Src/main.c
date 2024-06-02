@@ -18,11 +18,11 @@ int main(void)
     USER user[M]; //定义结构体数组保存用户信息
     Register_system(); // 登录注册功能  系统管理员登录后sign = 1， 普通用户登录后 sign = 2，
     Load(user, &n); // 把用户信息加载到内存中
+    readFile("studentData.txt"); //
     printf("正在加载学生数据...\n");
     srand(time(NULL));  // 初始化随机数种子
-    total_time = rand() % 6 + 5;  // 生成5到10秒之间的随机数
+    total_time = rand() % 6 + 2;  // 生成5到10秒之间的随机数
     adaptive_progress_bar(total_time);
-    readFile("studentData.txt"); //
     if(sign == 1) // 进入系统管理员菜单
     {
         int select;
@@ -56,6 +56,8 @@ int main(void)
                     find(2); break;
                 case 11://根据住宿号查找
                     find(3); break;
+                case 12:// 文件另存为
+                    saveFile(); break;
                 case 0:
                     srand(time(NULL));  // 初始化随机数种子
                     total_time = rand() % 6 + 5;  // 生成5到10秒之间的随机数
@@ -390,33 +392,34 @@ void Menu_admist()
     printf("     9：根据姓名查找                     \n");
     printf("     10：根据学号查找                     \n");
     printf("     11：根据宿舍号查找                   \n");
-    printf("     12：通过文件导入                   \n");
+    printf("     12：文件另存为                   \n");
     printf("     0: 退出系统                         \n");
     printf("                                   \n");
     printf("==========================================\n");
 }
 
-int displayMenu(const char* message, const char* options[], int optionCount) {
-    system("cls");
-    printf("==========================================\n");
-    printf("                  Info                    \n");
+int displayMenu(const char* message, const char options[][BUFFER_SIZE], int optionCount) {
     int choice = 0;
 
     // 显示提示信息
-    printCentered(message, 42);
+    printf("==========================================\n");
+    printf("                Information               \n");
+
+    printCentered(message, MENU_WIDTH);
     printf("\n");
 
     // 显示选项
+    char optionLine[BUFFER_SIZE];
     for (int i = 0; i < optionCount; i++) {
-        char optionLine[42 + 1];
-        snprintf(optionLine, sizeof(optionLine), "%d. %s", i + 1, options[i]);
-        printCentered(optionLine, 42);
+        snprintf(optionLine, BUFFER_SIZE, "%d. %s", i + 1, options[i]);
+        printCentered(optionLine, MENU_WIDTH);
         printf("\n");
     }
-    printf("                                          \n");
-    printf("==========================================\n");
+
     // 等待用户输入
-    printf("\t\t请输入选项编号：");
+    printf("\n==========================================\n");
+    printf("\n");
+    printf("请输入选项编号：");
     scanf("%d", &choice);
 
     // 验证输入
@@ -426,6 +429,7 @@ int displayMenu(const char* message, const char* options[], int optionCount) {
     } else {
         printf("无效的选择，请重试。\n");
     }
+    return -1;
 }
 
 // 打印居中文本函数
@@ -440,7 +444,6 @@ void printCentered(const char* text, int width) {
         printf(" ");
     }
 }
-
 void PrintTitle()
 {
     printf("--------------------------------------------------------------------------------\n");

@@ -14,6 +14,10 @@
 
 #define MAX_SIZE 100
 #define DORM_MAX_NUM 6 // 一个宿舍最多住多少人
+
+#define MENU_WIDTH 42
+#define MAX_OPTIONS 10
+#define BUFFER_SIZE 100
 //定义住宿信息结构体。
 typedef struct dormitory
 {
@@ -60,9 +64,9 @@ void Menu3();//用户登录注册界面
 void Menu_admist();// 管理员菜单界面
 void Menu_user();// 用户菜单界面
 
-int displayMenu(const char* message, const char* options[], int optionCount);// 显示提示
+int displayMenu(const char* message, const char options[][BUFFER_SIZE], int optionCount);
+void printCentered(const char* text, int width);
 
-void printCentered(const char* text, int width);// 居中打印
 void PrintTitle();// 打印表头
 void PrintDormitory(dormitory p); // 打印住宿信息
 
