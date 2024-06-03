@@ -5,8 +5,7 @@
 int sign = 0;// 区分用户标识符， 1： 系统管理员，  2：普通用户
 char ACCOUNT[N]; // 用于保存普通用户登录后的账号
 int total_time = 0;  // 生成5到10秒之间的随机数
-//定义住宿信息链表的头指针为全局变量。
-p_node_dormitory headDormitory;
+p_node_dormitory headDormitory; //定义住宿信息链表的头指针为全局变量。
 //定义 3 个指针数组，分别按照关键字学号、姓名和宿舍号顺序存储住宿信息的结点地址。
 dormitory *arrayDormID[MAX_SIZE], *arrayStudentID[MAX_SIZE], *arrayName[MAX_SIZE];
 int countRecord;

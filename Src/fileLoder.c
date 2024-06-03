@@ -140,22 +140,12 @@ void Save(char *FILE_NAME, USER user[],  int n)
 
 void createFile(char *FILE_NAME)
 {
-    int choice;
-    const char* message = "未找到文件，是否创建一个？";
-    const char* options[MAX_OPTIONS][BUFFER_SIZE] = {
-        "是",
-        "否"
-    };
-    choice = displayMenu(message, options, 2);
-    if(choice == 1)
+    FILE *file;
+    if((file = fopen(FILE_NAME, "w")) == NULL)
     {
-        FILE *file;
-        if((file = fopen(FILE_NAME, "w")) == NULL)
-        {
-            printf("创建文件失败\n");
-            printf("即将退出 *学生宿舍管理系统* \n");
-            system("pause");
-            exit(0);
-        }
+        printf("创建文件失败\n");
+        printf("即将退出 *学生宿舍管理系统* \n");
+        system("pause");
+        exit(0);
     }
 }
