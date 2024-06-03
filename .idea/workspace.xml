@@ -21,19 +21,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ccc3aa-1de8-4b59-9b4e-2e34abe3aff1" name="更改" comment="menu">
-      <change afterPath="$PROJECT_DIR$/userInfoList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/cache-v2-db92e4877fdf1d28ab59.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/cmakeFiles-v1-f654ebf9a4c991225ceb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2024-06-03T05-06-40-0690.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/toolchains-v1-82387daa300789db1e78.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/inputManger.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/dormitory-manager.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/outputManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/outputManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/fileLoder.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/fileLoder.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/ouputManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/ouputManager.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/fileLoder.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/ouputManager.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/fileLoder.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/fileLoder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/cache-v2-2a8964582042908f1e17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/cmakeFiles-v1-05b0ccb8a139a33f5c61.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2024-06-01T12-26-10-0766.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/toolchains-v1-0999770cd799d7f08096.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.29.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/includes_C.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/includes_C.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/linkLibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/linkLibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/dormitory-manager.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/accountManager.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/changeInfo.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/studentDelet.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dormitory-manager.dir/Src/studentFinder.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dormitory-manager.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dormitory-manager.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +184,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake 应用程序.dormitory-manager" />
       <item itemvalue="CMake 调试.main" />
+      <item itemvalue="CMake 应用程序.dormitory-manager" />
       <item itemvalue="CTest 应用程序.所有测试" />
     </list>
   </component>
@@ -154,7 +206,11 @@
       <workItem from="1717254194304" duration="1829000" />
       <workItem from="1717292391577" duration="5766000" />
       <workItem from="1717299713026" duration="4185000" />
-      <workItem from="1717306175029" duration="2234000" />
+      <workItem from="1717306175029" duration="2967000" />
+      <workItem from="1717312787477" duration="29000" />
+      <workItem from="1717331701656" duration="1027000" />
+      <workItem from="1717382865872" duration="9000" />
+      <workItem from="1717391255687" duration="178000" />
     </task>
     <task id="LOCAL-00001" summary="menu">
       <option name="closed" value="true" />
@@ -260,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717299859545</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="menu">
+      <option name="closed" value="true" />
+      <created>1717308487864</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717308487864</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
