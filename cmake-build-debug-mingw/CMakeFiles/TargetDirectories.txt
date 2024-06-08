@@ -1,0 +1,3 @@
+C:/Users/PengHeng/Documents/C_C++/dormitory manager/cmake-build-debug-mingw/CMakeFiles/dormitory-manager.dir
+C:/Users/PengHeng/Documents/C_C++/dormitory manager/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/PengHeng/Documents/C_C++/dormitory manager/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
