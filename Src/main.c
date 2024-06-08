@@ -36,11 +36,14 @@ int main(void)
                 case 1: // 批量创建用户
                     creatAccount(user, &n);break;
                 case 2: // 批量删除用户
+                    PrAllAccount(user, &n);
                     removeAccount(user, &n);break;
                 case 3: //修改账号密码
+                    PrAllAccount(user, &n);
                     editAccount(user, &n);break;
                 case 4: //重置账号密码
-                    PrAllAccount(user, &n);break;
+                    PrAllAccount(user, &n);
+                    resetAccount(user, &n);break;
                 case 5://显示全部住宿信息 排序
                     view(); break;
                 case 6://添加一条住宿信息 查 增

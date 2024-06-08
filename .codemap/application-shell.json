@@ -1,0 +1,427 @@
+{
+  "bottomPanel": {
+    "config": {
+      "main": {
+        "type": "tab-area",
+        "widgets": [
+          {
+            "constructionOptions": {
+              "factoryId": "problems"
+            },
+            "innerWidgetState": {}
+          }
+        ],
+        "currentIndex": 0
+      }
+    },
+    "expanded": false
+  },
+  "leftPanel": {
+    "type": "sidepanel",
+    "items": [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "explorer-view-container"
+          },
+          "innerWidgetState": {
+            "parts": [
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "files"
+                  },
+                  "innerWidgetState": {
+                    "decorations": {},
+                    "root": {
+                      "id": "WorkspaceNodeId",
+                      "name": "WorkspaceNode",
+                      "children": [
+                        {
+                          "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager",
+                          "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager",
+                          "expanded": true,
+                          "selected": false,
+                          "children": [
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/.codemap",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/.codemap",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/.idea",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/.idea",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/.vscode",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/.vscode",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/build",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/build",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/cmake-build-debug",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/cmake-build-debug",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc",
+                              "expanded": true,
+                              "selected": false,
+                              "children": [
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc/accountManager.h",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/accountManager.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc/changeInfo.h",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/changeInfo.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc/fileLoder.h",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/fileLoder.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc/inputManager.h",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/inputManager.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc/main.h",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/main.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc/outputManager.h",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/outputManager.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc/studentDelet.h",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/studentDelet.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Inc/studentFinder.h",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/studentFinder.h",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                }
+                              ],
+                              "stat": {
+                                "type": 2,
+                                "ctime": 1716902166457,
+                                "mtime": 1717391435082,
+                                "size": 0
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src",
+                              "expanded": true,
+                              "selected": false,
+                              "children": [
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/accountManager.c",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/accountManager.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/changeInfo.c",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/changeInfo.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/fileLoder.c",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/fileLoder.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/inputManger.c",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/inputManger.c",
+                                  "selected": false,
+                                  "focus": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/main.c",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/main.c",
+                                  "selected": false,
+                                  "focus": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/ouputManager.c",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/ouputManager.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/studentData.txt",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/studentData.txt",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/studentDelet.c",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/studentDelet.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/studentFinder.c",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/studentFinder.c",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                },
+                                {
+                                  "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/userInfoList.txt",
+                                  "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/userInfoList.txt",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                }
+                              ],
+                              "stat": {
+                                "type": 2,
+                                "ctime": 1716902160485,
+                                "mtime": 1717417522563,
+                                "size": 0
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/CMakeLists.txt",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/CMakeLists.txt",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/README.md",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/README.md",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/studentData.txt",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/studentData.txt",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager:/c:/Users/PengHeng/Documents/C_C++/dormitory manager/userInfoList.txt",
+                              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/userInfoList.txt",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            }
+                          ],
+                          "visible": false,
+                          "focus": false,
+                          "stat": {
+                            "type": 2,
+                            "ctime": 1716895781923,
+                            "mtime": 1717576193609,
+                            "size": 0
+                          }
+                        }
+                      ],
+                      "visible": false,
+                      "selected": false
+                    },
+                    "model": {
+                      "selection": {
+                        "selectionStack": []
+                      }
+                    }
+                  }
+                },
+                "partId": "{\"factoryId\":\"files\"}",
+                "collapsed": false,
+                "hidden": false,
+                "relativeSize": 1
+              },
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "plugin-view",
+                    "options": {
+                      "id": "plugin-view:go.explorer",
+                      "viewId": "go.explorer"
+                    }
+                  },
+                  "innerWidgetState": {
+                    "label": "go",
+                    "widgets": []
+                  }
+                },
+                "partId": "{\"factoryId\":\"plugin-view\",\"options\":{\"id\":\"plugin-view:go.explorer\",\"viewId\":\"go.explorer\"}}",
+                "collapsed": true,
+                "hidden": true
+              },
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "plugin-view",
+                    "options": {
+                      "id": "plugin-view:npm",
+                      "viewId": "npm"
+                    }
+                  },
+                  "innerWidgetState": {
+                    "label": "NPM Scripts",
+                    "widgets": []
+                  }
+                },
+                "partId": "{\"factoryId\":\"plugin-view\",\"options\":{\"id\":\"plugin-view:npm\",\"viewId\":\"npm\"}}",
+                "collapsed": true,
+                "hidden": true
+              }
+            ],
+            "title": {
+              "label": "资源树",
+              "iconClass": "codemap-files-icon",
+              "closeable": true
+            }
+          }
+        },
+        "rank": 100,
+        "expanded": true
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "search-in-workspace"
+          },
+          "innerWidgetState": {
+            "matchCaseState": {
+              "className": "match-case",
+              "enabled": true,
+              "title": "Match Case"
+            },
+            "wholeWordState": {
+              "className": "whole-word",
+              "enabled": true,
+              "title": "Match Whole Word"
+            },
+            "regExpState": {
+              "className": "use-regexp",
+              "enabled": false,
+              "title": "Use Regular Expression"
+            },
+            "includeIgnoredState": {
+              "className": "include-ignored fa fa-eye",
+              "enabled": false,
+              "title": "Include Ignored Files"
+            },
+            "showSearchDetails": false,
+            "searchInWorkspaceOptions": {
+              "matchCase": true,
+              "matchWholeWord": true,
+              "useRegExp": false,
+              "includeIgnored": false,
+              "include": [],
+              "exclude": [],
+              "maxResults": 2000
+            },
+            "searchTerm": "",
+            "replaceTerm": "",
+            "showReplaceField": false
+          }
+        },
+        "rank": 200,
+        "expanded": false
+      }
+    ],
+    "size": 150
+  },
+  "rightPanel": {
+    "type": "sidepanel",
+    "items": []
+  },
+  "activeWidgetId": "undefined:search-in-workspace"
+}

@@ -107,6 +107,44 @@ void editAccount(USER user[],  int *nptr)
 }
 
 /*
+ *@brife 重置用户密码
+ */
+void resetAccount(USER user[],  int *nptr)
+{
+    int i, index;
+    char account1[N], password1[N], password2[N];
+    printf("请输入要重置密码的账号:\n");
+    scanf("%s", account1);
+    index =  FindByNum(user, *nptr, account1);
+    if(index == -1)
+    {
+        printf("\n系统内无该账号信息！！\n");
+        resetAccount(user, nptr);
+        return;
+    }
+    Print_account(&user[index]);
+    while(1)
+    {
+        printf("\n请输入要重置的密码：\n");
+        scanf("%s", password1);
+        printf("请再次输入密码：\n");
+        scanf("%s", password2);
+        if(strcmp(password1, password2) == 0)
+        {
+            printf("\n密码重置成功 ^_~ \n");
+            strcpy(user[index].Password, password2);
+            break;
+        }else
+        {
+            printf("\n输入的两次密码不同，请重新修改。＞﹏＜\n");
+        }
+    }
+    Save("userInfoList.txt", user, *nptr);
+    printf("\n输入任意键返回 *系统管理员功能菜单界面* ...\n");
+    scanf("%*c%*c");
+}
+
+/*
 @brife 查看当前馆内所有用户信息
 */
 void PrAllAccount(USER user[],  int *nptr)
@@ -118,8 +156,7 @@ void PrAllAccount(USER user[],  int *nptr)
     {
         printf("\n%-15s%-15s%-18s%-15s\n", user[i].Accont, user[i].Password, user[i].ID, user[i].People_name);
     }
-    printf("\n请输入任意键返回 *系统管理员功能菜单界面* .....\n");
-    scanf("%*c%*c");
+    system("pause");
 }
 
 void Print_account(USER *sptr)

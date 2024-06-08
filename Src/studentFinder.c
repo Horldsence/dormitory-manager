@@ -221,19 +221,19 @@ void view()
         count++;
     }
     printf("共有%d条数据\n", count);
-    printf("\n\n通过名字排序\n");
+    printf("\n\n################通过名字排序###############\n");
     PrintTitle();
     for(count = 0; count < countRecord; count++)
     {
         PrintDormitory(*arrayName[count]);
     }
-    printf("\n\n通过学号排序\n");
+    printf("\n\n################通过学号排序################\n");
     PrintTitle();
     for(count = 0; count < countRecord; count++)
     {
         PrintDormitory(*arrayStudentID[count]);
     }
-    printf("\n\n通过宿舍号排序\n");
+    printf("\n\n################通过宿舍号排序################\n");
     PrintTitle();
     for(count = 0; count < countRecord; count++)
     {

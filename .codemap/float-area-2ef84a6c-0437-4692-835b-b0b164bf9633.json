@@ -1,0 +1,650 @@
+{
+  "type": "float-area",
+  "_widgets": [
+    [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/main.c",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 101,
+                  "column": 31
+                },
+                "position": {
+                  "lineNumber": 101,
+                  "column": 31
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 84,
+                "column": 1
+              },
+              "firstPositionDeltaTop": -3
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 525,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": true
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/main.h",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 82,
+                  "column": 16
+                },
+                "position": {
+                  "lineNumber": 82,
+                  "column": 16
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 32,
+                "column": 1
+              },
+              "firstPositionDeltaTop": -11
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 90,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/ouputManager.c",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 6,
+                  "column": 6
+                },
+                "position": {
+                  "lineNumber": 6,
+                  "column": 6
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 8,
+              "firstPosition": {
+                "lineNumber": 6,
+                "column": 1
+              },
+              "firstPositionDeltaTop": 0
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 50,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      }
+    ],
+    [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/fileLoder.c",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 57,
+                  "column": 6
+                },
+                "position": {
+                  "lineNumber": 57,
+                  "column": 6
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 32,
+                "column": 1
+              },
+              "firstPositionDeltaTop": -11
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 152,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/accountManager.c",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 67,
+                  "column": 6
+                },
+                "position": {
+                  "lineNumber": 67,
+                  "column": 6
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 8,
+              "firstPosition": {
+                "lineNumber": 67,
+                "column": 1
+              },
+              "firstPositionDeltaTop": 0
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 147,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Src/studentFinder.c",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 247,
+                  "column": 6
+                },
+                "position": {
+                  "lineNumber": 247,
+                  "column": 6
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 247,
+                "column": 1
+              },
+              "firstPositionDeltaTop": 0
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 271,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/changeInfo.h",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 1,
+                  "column": 1
+                },
+                "position": {
+                  "lineNumber": 1,
+                  "column": 1
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 1,
+                "column": 1
+              },
+              "firstPositionDeltaTop": 0
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 10,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      }
+    ],
+    [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/fileLoder.h",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 1,
+                  "column": 1
+                },
+                "position": {
+                  "lineNumber": 1,
+                  "column": 1
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 1,
+                "column": 1
+              },
+              "firstPositionDeltaTop": 0
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 12,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/studentFinder.h",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 1,
+                  "column": 1
+                },
+                "position": {
+                  "lineNumber": 1,
+                  "column": 1
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 1,
+                "column": 1
+              },
+              "firstPositionDeltaTop": 0
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 16,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "code-editor-opener",
+            "options": {
+              "kind": "navigatable",
+              "uri": "file:///c%3A/Users/PengHeng/Documents/C_C%2B%2B/dormitory%20manager/Inc/studentDelet.h",
+              "floatAreaId": "2ef84a6c-0437-4692-835b-b0b164bf9633"
+            }
+          },
+          "innerWidgetState": {
+            "cursorState": [
+              {
+                "inSelectionMode": false,
+                "selectionStart": {
+                  "lineNumber": 1,
+                  "column": 1
+                },
+                "position": {
+                  "lineNumber": 1,
+                  "column": 1
+                }
+              }
+            ],
+            "viewState": {
+              "scrollLeft": 0,
+              "firstPosition": {
+                "lineNumber": 1,
+                "column": 1
+              },
+              "firstPositionDeltaTop": 0
+            },
+            "contributionsState": {
+              "editor.contrib.folding": {
+                "lineCount": 8,
+                "provider": "syntax",
+                "foldedImports": false
+              },
+              "editor.contrib.wordHighlighter": false
+            }
+          }
+        },
+        "width": 600,
+        "height": 450,
+        "spacing": 0
+      }
+    ]
+  ],
+  "_widths": [
+    600,
+    600,
+    600
+  ],
+  "_modelData": {
+    "connections": [
+      {
+        "startWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/main.c",
+          "lineNumber": 19,
+          "startColumn": 5,
+          "endColumn": 9,
+          "word": "Load",
+          "x": 78.99999531249999,
+          "y": 60.499999511718734,
+          "hide": true,
+          "height": 1,
+          "width": 1
+        },
+        "endWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/fileLoder.c",
+          "lineNumber": 4,
+          "startColumn": 6,
+          "endColumn": 10,
+          "endLineNumber": 4,
+          "word": "",
+          "x": 735.0000109374998,
+          "y": 60.499999511718734,
+          "hide": true,
+          "height": 1,
+          "width": 1
+        },
+        "id": "0f132874-0eff-419b-9bf9-36a0ef556c49"
+      },
+      {
+        "startWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/main.c",
+          "lineNumber": 20,
+          "startColumn": 5,
+          "endColumn": 13,
+          "word": "readFile",
+          "x": 78.99999531249999,
+          "y": 60.499999511718734,
+          "hide": true,
+          "height": 1,
+          "width": 1
+        },
+        "endWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/fileLoder.c",
+          "lineNumber": 57,
+          "startColumn": 6,
+          "endColumn": 14,
+          "endLineNumber": 57,
+          "word": "",
+          "x": 735.0000109374998,
+          "y": 479.4999995117187,
+          "hide": true,
+          "height": 1,
+          "width": 1
+        },
+        "id": "75d50e7a-d0cc-4b6c-9138-c9e24eb616bb"
+      },
+      {
+        "startWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/main.c",
+          "lineNumber": 24,
+          "startColumn": 5,
+          "endColumn": 26,
+          "word": "adaptive_progress_bar",
+          "x": 78.99999531249999,
+          "y": 60.499999511718734,
+          "hide": true,
+          "height": 1,
+          "width": 1
+        },
+        "endWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/main.c",
+          "lineNumber": 506,
+          "startColumn": 6,
+          "endColumn": 27,
+          "endLineNumber": 506,
+          "word": "",
+          "x": 78.99999531249999,
+          "y": 479.4999995117187,
+          "hide": true,
+          "height": 1,
+          "width": 1
+        },
+        "id": "88e949ee-fc95-4b83-9e7a-03c11036c451"
+      },
+      {
+        "startWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/main.c",
+          "lineNumber": 91,
+          "startColumn": 21,
+          "endColumn": 32,
+          "word": "editAccount",
+          "x": 233.9999953125,
+          "y": 190.49999951171873,
+          "hide": false,
+          "height": 19,
+          "width": 86
+        },
+        "endWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/accountManager.c",
+          "lineNumber": 67,
+          "startColumn": 6,
+          "endColumn": 17,
+          "endLineNumber": 67,
+          "word": "",
+          "x": 765.0000109374998,
+          "y": 566.5000148437498,
+          "hide": false,
+          "height": 19,
+          "width": 85
+        },
+        "id": "42450c5e-9789-40d5-8317-496d1fe0956c"
+      },
+      {
+        "startWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/main.c",
+          "lineNumber": 94,
+          "startColumn": 21,
+          "endColumn": 25,
+          "word": "find",
+          "x": 232.9999953125,
+          "y": 247.49999951171873,
+          "hide": false,
+          "height": 19,
+          "width": 31
+        },
+        "endWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/studentFinder.c",
+          "lineNumber": 247,
+          "startColumn": 6,
+          "endColumn": 10,
+          "endLineNumber": 247,
+          "word": "",
+          "x": 773.0000109374998,
+          "y": 1072.4999906249998,
+          "hide": false,
+          "height": 19,
+          "width": 31
+        },
+        "id": "3464e9ae-4bc6-43bb-83dc-5ab2160c5eaf"
+      },
+      {
+        "startWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/main.c",
+          "lineNumber": 101,
+          "startColumn": 21,
+          "endColumn": 36,
+          "word": "writeDataToFile",
+          "x": 232.9999953125,
+          "y": 399.4999995117187,
+          "hide": false,
+          "height": 19,
+          "width": 115
+        },
+        "endWord": {
+          "uri": "/c:/Users/PengHeng/Documents/C_C++/dormitory manager/Src/ouputManager.c",
+          "lineNumber": 6,
+          "startColumn": 6,
+          "endColumn": 21,
+          "endLineNumber": 6,
+          "word": "",
+          "x": 108.99999531249999,
+          "y": 1072.4999906249998,
+          "hide": false,
+          "height": 19,
+          "width": 116.00000000000001
+        },
+        "id": "2d94dd94-1230-484d-8cdc-939cbf677a96"
+      }
+    ],
+    "annotations": [],
+    "highlights": []
+  }
+}
