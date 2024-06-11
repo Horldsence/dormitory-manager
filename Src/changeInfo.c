@@ -102,13 +102,13 @@ void edit()
             PrintTitle();
             PrintDormitory(pNodeDormitory->data);
             printf("\n 编辑学号： ");
-            scanf("%s", pNodeDormitory->data.dormID);
-            printf("\n 编辑宿舍号： ");
             scanf("%s", pNodeDormitory->data.studentID);
+            printf("\n 编辑宿舍号： ");
+            scanf("%s", pNodeDormitory->data.dormID);
             printf("\n 编辑名字： ");
             scanf("%s", pNodeDormitory->data.Name);
             printf("\n 编辑性别（0：男，1：女）： ");
-            scanf("%s", pNodeDormitory->data.Name);
+            scanf("%s", pNodeDormitory->data.sex);
             printf("\n\n\n");
             adaptive_progress_bar(1);
             PrintTitle();
